@@ -28,7 +28,7 @@ const LinkItem = styled.li`
     transition: all 200ms ease-in-out;
 
     &:hover {
-        border-top: 2px solid #004d98;     
+        border-top: 2px solid #00c9ff;     
     }
 `;
 
