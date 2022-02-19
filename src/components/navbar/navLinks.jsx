@@ -13,6 +13,11 @@ const LinkWrapper = styled.ul`
     display: flex;
     height: 100%;
     list-style: none;
+
+    scrollbar-width: none;
+    &::-webkit-scrollbar{
+        display:none;
+    }
 `;
 
 const LinkItem = styled.li`
@@ -26,16 +31,19 @@ const LinkItem = styled.li`
     display: flex;
     border-top: 2px solid transparent;
     transition: all 200ms ease-in-out;
+    
 
     &:hover {
         border-top: 2px solid #00c9ff;     
     }
+    
 `;
 
 const Link = styled.a`
     text-decoration: none;
     color: inherit;
     font-size: inherit;
+    
 `;
 
 export function NavLinks(props) {

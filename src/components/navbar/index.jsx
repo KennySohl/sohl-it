@@ -8,6 +8,7 @@ import { DeviceSize } from "../responsive";
 import { MobileNavLinks } from "./mobileNavLinks";
 
 const NavBarContainer = styled.div`
+  background-color: #fff;
   width: 100%;
   height: 60px;
   box-shadow: 0 1px 3px rgba(15, 15, 15, 0.13);
@@ -15,6 +16,11 @@ const NavBarContainer = styled.div`
   align-items: center;
   padding: 0 1.5em;
   box-sizing: border-box;
+  position: fixed;
+  top: 0;
+  z-index: 2;
+
+  
 `;
 
 const LeftSection = styled.div`

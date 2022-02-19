@@ -11,6 +11,11 @@ const LogoImg = styled.div`
     width: 43px;
     height 37px;
 
+    scrollbar-width: none;
+    &::-webkit-scrollbar{
+        display:none;
+    }
+
     img {
         width: 100%;
         height: 100%;
