@@ -19,7 +19,7 @@ const LinksWrapper = styled.ul`
   width: 200px;
   flex-direction: column;
   position: fixed;
-  top: 65px;
+  top: 60px;
   right: 0;
 `;
 
@@ -51,11 +51,11 @@ export function MobileNavLinks(props) {
       <MenuToggle isOpen={isOpen} toggle={() => setOpen(!isOpen)} />
       {isOpen && (
         <LinksWrapper>
-            <LinkItem><Link href="#">About</Link></LinkItem>
-            <LinkItem><Link href="#">Work</Link></LinkItem>
-            <LinkItem><Link href="#">Contact</Link></LinkItem>
-            <LinkItem><Link href="#">Linkedin</Link></LinkItem>
-            <LinkItem><Link href="#">GitHub</Link></LinkItem>
+            <LinkItem><Link href="#about">About</Link></LinkItem>
+            <LinkItem><Link href="#work">Work</Link></LinkItem>
+            <LinkItem><Link href="#contact">Contact</Link></LinkItem>
+            <LinkItem><Link href="https://www.linkedin.com/in/kenny-sohl-753124224/">Linkedin</Link></LinkItem>
+            <LinkItem><Link href="https://github.com/KennySohl">GitHub</Link></LinkItem>
           <Marginer />
           <Accessibility />
         </LinksWrapper>

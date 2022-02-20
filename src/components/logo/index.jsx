@@ -30,13 +30,20 @@ const LogoText = styled.h2`
   font-weight: 500;
 `;
 
+const Link = styled.a`
+    text-decoration: none;
+    color: inherit;
+    font-size: inherit;
+    
+`;
+
 export function Logo(props) {
   return (
     <LogoWrapper>
       <LogoImg>
         <img src={SohlitLogoImg} alt="Sohl.it Logo" />
       </LogoImg>
-      <LogoText>Sohl.it</LogoText>
+      <LogoText><Link href="#main">Sohl.it</Link></LogoText>
     </LogoWrapper>
   );
 }

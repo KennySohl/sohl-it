@@ -7,7 +7,7 @@ const AboutContainer = styled.div `
 
 export function About(props) {
     return (
-        <AboutContainer>
+        <AboutContainer id="about">
             <h2>About</h2>
         </AboutContainer>
         

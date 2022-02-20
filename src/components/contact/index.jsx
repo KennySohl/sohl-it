@@ -7,7 +7,7 @@ background-color: green;
 
 export function Contact(props) {
     return (
-        <ContactContainer>
+        <ContactContainer id="contact">
             <h2>Contact</h2>
         </ContactContainer>
         

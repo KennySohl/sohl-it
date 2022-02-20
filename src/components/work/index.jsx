@@ -7,7 +7,7 @@ background-color: red;
 
 export function Work (props) {
     return (
-        <WorkContainer>
+        <WorkContainer id="work">
             <h2>Work</h2>
         </WorkContainer>
         

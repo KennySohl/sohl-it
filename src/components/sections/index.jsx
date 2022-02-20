@@ -11,6 +11,7 @@ const SectionsContainer = styled.div `
     background-color: lightsalmon;
     position: relative;
     top: 60px;
+    scroll-behavior: smooth;
     scroll-snap-type: y mandatory;
     scrollbar-width: none;
     &::-webkit-scrollbar{
