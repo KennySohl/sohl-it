@@ -20,3 +20,83 @@ h2 {
 h3 {
   font-size: 30px;
 }
+
+.mainbg {
+  /* Full height */
+
+  background: #c33764; /* fallback colour. Make sure this is just one solid colour. */
+  background: -webkit-linear-gradient(
+      rgba(29, 38, 113, 0.8),
+      rgba(195, 55, 100, 0.8)
+    ),
+    url("./assets/tram.jpg");
+  background: linear-gradient(rgba(29, 38, 113, 0.8), rgba(195, 55, 100, 0.8)),
+    url("./assets/tram.jpg"); /* The least supported option. */
+
+  height: 100%;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.aboutbg {
+  /* Full height */
+
+  background: #34a0c4; /* fallback colour. Make sure this is just one solid colour. */
+  background: -webkit-linear-gradient(
+      rgba(115, 175, 137, 0.8),
+      rgba(52, 160, 196, 0.8)
+    ),
+    url("./assets/cranes.jpg");
+  background: linear-gradient(rgba(115, 175, 137, 0.8), rgba(52, 160, 196, 0.8)),
+    url("./assets/cranes.jpg"); /* The least supported option. */
+
+  height: 100%;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.workbg {
+  /* Full height */
+
+  background: #89253e; /* fallback colour. Make sure this is just one solid colour. */
+  background: -webkit-linear-gradient(
+      rgba(58, 97, 134, 0.8),
+      rgba(137, 37, 62, 0.8)
+    ),
+    url("./assets/bridge.jpg");
+  background: linear-gradient(rgba(58, 97, 134, 0.8), rgba(137, 37, 62, 0.8)),
+    url("./assets/bridge.jpg"); /* The least supported option. */
+
+  height: 100%;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.contactbg {
+  /* Full height */
+
+  background: #19547b; /* fallback colour. Make sure this is just one solid colour. */
+  background: -webkit-linear-gradient(
+      rgba(255, 216, 155, 0.8),
+      rgba(25, 84, 123, 0.8)
+    ),
+    url("./assets/river.jpg");
+  background: linear-gradient(rgba(255, 216, 155, 0.8), rgba(25, 84, 123, 0.8)),
+    url("./assets/river.jpg"); /* The least supported option. */
+
+  height: 100%;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
